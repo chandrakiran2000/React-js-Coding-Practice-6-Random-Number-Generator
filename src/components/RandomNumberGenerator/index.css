@@ -1,0 +1,102 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .bg-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'roboto';
+  }
+  .random-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px;
+    padding: 30px;
+    text-align: center;
+    height: 350px;
+    width: 320px;
+    border-radius: 12px;
+  }
+  .random-heading {
+    color: #0b69ff;
+    font-size: 30px;
+  }
+  .random-text {
+    color: #333333;
+    text-align: center;
+    font-size: 17px;
+  }
+  .btn-card {
+    text-align: center;
+  }
+  .random-btn {
+    background-color: #0b69ff;
+    color: #e4ebf3;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .random-number {
+    color: #0b69ff;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'roboto';
+  }
+  .random-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px;
+    padding: 50px;
+    text-align: center;
+    height: 460px;
+    width: 430px;
+    border-radius: 15px;
+  }
+  .random-heading {
+    color: #0b69ff;
+    font-size: 35px;
+  }
+  .random-text {
+    color: #333333;
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn-card {
+    text-align: center;
+  }
+  .random-btn {
+    background-color: #0b69ff;
+    color: #e4ebf3;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .random-number {
+    color: #0b69ff;
+    font-size: 40px;
+  }
+}
